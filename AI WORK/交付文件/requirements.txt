@@ -1,0 +1,4 @@
+# Versions actually used and verified with Python 3.12.14 on Windows.
+XlsxWriter==3.2.9
+openpyxl==3.1.5
+numpy==2.3.5
