@@ -1,0 +1,81 @@
+{
+  "v1_sha256": "d1109b68c70597b461b35d52abaf4d869bc8ce35aa6f1388305f05ebee28570e",
+  "output_sha256": "6c2159569af7da0582a9b64b27848764a5272244553f5e7df781882100866653",
+  "non_style_differences": 0,
+  "final_validation_passed": true,
+  "zip": "C:\\Users\\BBEN\\Desktop\\投资测算AGENT V5-CODEX\\任务1-生成excel\\工作区1\\AI WORK\\V2\\产业园投资测算_V2_样式调整_完整交付包.zip",
+  "zip_members": 14,
+  "zip_sha256": "d3ad91e79663ad0da1d6efb55e3aad3938c3c0c487cea3e948c83ae43b3ce03a",
+  "delivered_files": [
+    {
+      "path": "产业园投资测算_V2_样式调整.xlsx",
+      "size": 190695,
+      "sha256": "6c2159569af7da0582a9b64b27848764a5272244553f5e7df781882100866653"
+    },
+    {
+      "path": "apply_style.py",
+      "size": 37051,
+      "sha256": "833f5d85828222cd813efc71cc2b168a2a3d2c403c797fa982cdbac6fd157820"
+    },
+    {
+      "path": "requirements.txt",
+      "size": 134,
+      "sha256": "f337ae3247f68c95a44697f8f965db88066c78c6fb7accac100081ace0a45b4e"
+    },
+    {
+      "path": "README.md",
+      "size": 6642,
+      "sha256": "d2887846e78b1b15449e2f7cee1161f4562b73100988b8d2c825fe6a15367fc1"
+    },
+    {
+      "path": "样式调整验证说明.md",
+      "size": 8795,
+      "sha256": "0de533bcee6f7f47e69b165fdcdb46447ed0b9a2fcf822bf21cf13a49fbe5bfd"
+    },
+    {
+      "path": "产业园投资测算_V2_样式调整_验证结果.json",
+      "size": 10344,
+      "sha256": "5abb2f8699ffdf517c44bfcad99497dc3266f920b3a1806200a0b71563501908"
+    },
+    {
+      "path": "_过程文件\\内容基准_产业园投资测算_V2_样式调整.json",
+      "size": 3530322,
+      "sha256": "ffcf035121985a5d0bc3bca185fa57a2c1e9cfd585642bce04aa6be26cb79d61"
+    },
+    {
+      "path": "_过程文件\\补充验证结果.json",
+      "size": 4059,
+      "sha256": "555448af41e0a47c5742f9fced3c97ce7a5aefccbc01e9298f1ded580aad4769"
+    },
+    {
+      "path": "_过程文件\\最终视觉检查摘要.json",
+      "size": 1944,
+      "sha256": "36e3a001cd74e80ae8859518d76dca39a1e335752974098e3b149071a5464bc6"
+    },
+    {
+      "path": "_过程文件\\原版预览\\native_check.json",
+      "size": 1816,
+      "sha256": "c7fab55041211205f5a3b19ab38fe58ad98705ada441663066047640a178d038"
+    },
+    {
+      "path": "_过程文件\\新版预览\\native_check.json",
+      "size": 1813,
+      "sha256": "6918ff3773654c85f1bcea9d9f723d7483e5b95543e2d82a617ccc612f9f3911"
+    },
+    {
+      "path": "_过程文件\\test_preservation.py",
+      "size": 6379,
+      "sha256": "07dea8e19289405d3742763e6330e31d6f5e93f0f8dd9ec8fddadb2c7467e8dd"
+    },
+    {
+      "path": "_过程文件\\native_preview.ps1",
+      "size": 3241,
+      "sha256": "321c9bd2035a3840407678e899fd73d98239171ce0f150ba7fa2f8c79083f7c8"
+    },
+    {
+      "path": "_过程文件\\requirements_qa.txt",
+      "size": 133,
+      "sha256": "8c907c8ffebab063c680a132aa82a5bfd82e93f898e7234b38825d6a8f1a9c7f"
+    }
+  ]
+}

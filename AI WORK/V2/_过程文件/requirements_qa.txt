@@ -1,0 +1,5 @@
+# Optional QA dependencies actually used; not needed by apply_style.py.
+lxml==6.1.1
+openpyxl==3.1.5
+Pillow==12.3.0
+pypdfium2==5.13.0

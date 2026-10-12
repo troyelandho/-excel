@@ -1,0 +1,382 @@
+{
+  "passed": true,
+  "non_style_differences": 0,
+  "checks": {
+    "ZIP成员及顺序": {
+      "differences": 0,
+      "status": "通过",
+      "detail": ""
+    },
+    "工作表名称数量顺序及可见状态": {
+      "differences": 0,
+      "status": "通过",
+      "detail": ""
+    },
+    "逐单元格地址类型和值（含文字及错误标记）": {
+      "differences": 0,
+      "status": "通过",
+      "detail": "单元格原始XML仅剔除样式索引后逐字节比较"
+    },
+    "公式字符串及公式属性": {
+      "differences": 0,
+      "status": "通过",
+      "detail": "逐字符比较，同时比较共享/数组公式属性"
+    },
+    "原有公式缓存及缓存类型": {
+      "differences": 0,
+      "status": "通过",
+      "detail": ""
+    },
+    "内容单元格及公式数量": {
+      "differences": 0,
+      "status": "通过",
+      "detail": ""
+    },
+    "所有单元格有效数字格式": {
+      "differences": 0,
+      "status": "通过",
+      "detail": ""
+    },
+    "有效样式中非白名单属性（含保护缩进旋转等）": {
+      "differences": 0,
+      "status": "通过",
+      "detail": ""
+    },
+    "工作表完整非白名单XML": {
+      "differences": 0,
+      "status": "通过",
+      "detail": ""
+    },
+    "合并隐藏冻结保护打印分页及对象关系": {
+      "differences": 0,
+      "status": "通过",
+      "detail": ""
+    },
+    "数据验证及扩展设置": {
+      "differences": 0,
+      "status": "通过",
+      "detail": ""
+    },
+    "条件格式公式阈值范围优先级停止规则": {
+      "differences": 0,
+      "status": "通过",
+      "detail": ""
+    },
+    "原样式定义命名样式数字格式表及条件格式差异样式": {
+      "differences": 0,
+      "status": "通过",
+      "detail": ""
+    },
+    "其余ZIP成员逐字节保持": {
+      "differences": 0,
+      "status": "通过",
+      "detail": ""
+    },
+    "图表类型标题系列引用位置及全部设置": {
+      "differences": 0,
+      "status": "通过",
+      "detail": "图表及绘图XML、关系文件逐字节比较"
+    },
+    "命名范围计算设置及工作簿保护": {
+      "differences": 0,
+      "status": "通过",
+      "detail": ""
+    },
+    "超链接批注表格外部关系及其他对象": {
+      "differences": 0,
+      "status": "通过",
+      "detail": "相关对象文件及全部关系文件均包含于逐字节检查"
+    },
+    "原V1文件SHA256": {
+      "differences": 0,
+      "status": "通过"
+    }
+  },
+  "differences": [],
+  "sheet_counts": [
+    {
+      "name": "使用说明",
+      "all_cell_nodes": 381,
+      "nonempty_cells": 41,
+      "formulas": 0,
+      "conditional_format_blocks": 0,
+      "data_validation_rules": 0
+    },
+    {
+      "name": "核心参数输入",
+      "all_cell_nodes": 888,
+      "nonempty_cells": 355,
+      "formulas": 1,
+      "conditional_format_blocks": 0,
+      "data_validation_rules": 12
+    },
+    {
+      "name": "建筑面积与开发计划",
+      "all_cell_nodes": 810,
+      "nonempty_cells": 744,
+      "formulas": 688,
+      "conditional_format_blocks": 0,
+      "data_validation_rules": 0
+    },
+    {
+      "name": "投资与资金安排",
+      "all_cell_nodes": 776,
+      "nonempty_cells": 710,
+      "formulas": 596,
+      "conditional_format_blocks": 0,
+      "data_validation_rules": 0
+    },
+    {
+      "name": "销售与出租收入",
+      "all_cell_nodes": 1254,
+      "nonempty_cells": 1188,
+      "formulas": 1116,
+      "conditional_format_blocks": 0,
+      "data_validation_rules": 0
+    },
+    {
+      "name": "运营成本与税费",
+      "all_cell_nodes": 1188,
+      "nonempty_cells": 1122,
+      "formulas": 1054,
+      "conditional_format_blocks": 0,
+      "data_validation_rules": 0
+    },
+    {
+      "name": "融资与还本付息",
+      "all_cell_nodes": 738,
+      "nonempty_cells": 738,
+      "formulas": 688,
+      "conditional_format_blocks": 0,
+      "data_validation_rules": 0
+    },
+    {
+      "name": "利润与现金流",
+      "all_cell_nodes": 3894,
+      "nonempty_cells": 3828,
+      "formulas": 3596,
+      "conditional_format_blocks": 0,
+      "data_validation_rules": 0
+    },
+    {
+      "name": "指标与情景测算",
+      "all_cell_nodes": 211,
+      "nonempty_cells": 195,
+      "formulas": 101,
+      "conditional_format_blocks": 3,
+      "data_validation_rules": 0
+    },
+    {
+      "name": "决策看板",
+      "all_cell_nodes": 538,
+      "nonempty_cells": 445,
+      "formulas": 343,
+      "conditional_format_blocks": 4,
+      "data_validation_rules": 0
+    }
+  ],
+  "totals": {
+    "sheets": 10,
+    "all_cell_nodes": 10678,
+    "nonempty_cells": 9366,
+    "formulas": 8183,
+    "charts": 3,
+    "formula_caches": 8183,
+    "zip_parts": 45
+  },
+  "byte_identical_parts": [
+    "[Content_Types].xml",
+    "_rels/.rels",
+    "xl/workbook.xml",
+    "xl/_rels/workbook.xml.rels",
+    "xl/theme/theme1.xml",
+    "xl/sharedStrings.xml",
+    "xl/worksheets/_rels/sheet9.xml.rels",
+    "xl/worksheets/_rels/sheet10.xml.rels",
+    "xl/drawings/_rels/drawing1.xml.rels",
+    "xl/charts/chart3.xml",
+    "xl/worksheets/_rels/sheet7.xml.rels",
+    "xl/worksheets/_rels/sheet2.xml.rels",
+    "xl/drawings/drawing1.xml",
+    "xl/charts/chart1.xml",
+    "xl/charts/chart2.xml",
+    "xl/worksheets/_rels/sheet1.xml.rels",
+    "xl/worksheets/_rels/sheet3.xml.rels",
+    "xl/worksheets/_rels/sheet4.xml.rels",
+    "xl/worksheets/_rels/sheet5.xml.rels",
+    "xl/worksheets/_rels/sheet6.xml.rels",
+    "xl/worksheets/_rels/sheet8.xml.rels",
+    "xl/printerSettings/printerSettings1.bin",
+    "xl/printerSettings/printerSettings2.bin",
+    "xl/printerSettings/printerSettings3.bin",
+    "xl/printerSettings/printerSettings5.bin",
+    "xl/calcChain.xml",
+    "docProps/core.xml",
+    "docProps/app.xml",
+    "xl/printerSettings/printerSettings4.bin",
+    "xl/printerSettings/printerSettings8.bin",
+    "xl/printerSettings/printerSettings7.bin",
+    "xl/printerSettings/printerSettings10.bin",
+    "xl/printerSettings/printerSettings6.bin",
+    "xl/printerSettings/printerSettings9.bin"
+  ],
+  "changed_parts": [
+    "xl/worksheets/sheet1.xml",
+    "xl/worksheets/sheet2.xml",
+    "xl/worksheets/sheet3.xml",
+    "xl/worksheets/sheet4.xml",
+    "xl/worksheets/sheet5.xml",
+    "xl/worksheets/sheet6.xml",
+    "xl/worksheets/sheet7.xml",
+    "xl/worksheets/sheet8.xml",
+    "xl/worksheets/sheet9.xml",
+    "xl/worksheets/sheet10.xml",
+    "xl/styles.xml"
+  ],
+  "input": "C:\\Users\\BBEN\\Desktop\\投资测算AGENT V5-CODEX\\任务1-生成excel\\工作区1\\AI WORK\\V1\\交付文件\\产业园投资测算.xlsx",
+  "output": "C:\\Users\\BBEN\\Desktop\\投资测算AGENT V5-CODEX\\任务1-生成excel\\工作区1\\AI WORK\\V2\\_过程文件\\可复现检查\\产业园投资测算_V2_样式调整.xlsx",
+  "baseline_file": "C:\\Users\\BBEN\\Desktop\\投资测算AGENT V5-CODEX\\任务1-生成excel\\工作区1\\AI WORK\\V2\\_过程文件\\可复现检查\\_过程文件\\内容基准_产业园投资测算_V2_样式调整.json",
+  "input_sha256_before": "d1109b68c70597b461b35d52abaf4d869bc8ce35aa6f1388305f05ebee28570e",
+  "input_sha256_after": "d1109b68c70597b461b35d52abaf4d869bc8ce35aa6f1388305f05ebee28570e",
+  "output_sha256": "6c2159569af7da0582a9b64b27848764a5272244553f5e7df781882100866653",
+  "visual_changes": {
+    "使用说明": {
+      "roles": {
+        "title": 1,
+        "module": 20,
+        "note": 360
+      },
+      "styled_cells": 381,
+      "row_heights_changed": 0,
+      "column_widths_changed": 0
+    },
+    "核心参数输入": {
+      "roles": {
+        "title": 1,
+        "header": 42,
+        "module": 107,
+        "label": 62,
+        "input": 121,
+        "body": 65,
+        "note": 490
+      },
+      "styled_cells": 888,
+      "row_heights_changed": 1,
+      "column_widths_changed": 0
+    },
+    "建筑面积与开发计划": {
+      "roles": {
+        "title": 1,
+        "header": 32,
+        "body": 677,
+        "label": 23,
+        "key": 9,
+        "module": 68
+      },
+      "styled_cells": 810,
+      "row_heights_changed": 0,
+      "column_widths_changed": 0
+    },
+    "投资与资金安排": {
+      "roles": {
+        "title": 1,
+        "module": 70,
+        "header": 32,
+        "body": 539,
+        "label": 44,
+        "total": 86,
+        "key": 4
+      },
+      "styled_cells": 776,
+      "row_heights_changed": 0,
+      "column_widths_changed": 0
+    },
+    "销售与出租收入": {
+      "roles": {
+        "title": 1,
+        "header": 32,
+        "body": 991,
+        "module": 68,
+        "label": 30,
+        "total": 132
+      },
+      "styled_cells": 1254,
+      "row_heights_changed": 0,
+      "column_widths_changed": 0
+    },
+    "运营成本与税费": {
+      "roles": {
+        "title": 1,
+        "header": 32,
+        "body": 991,
+        "module": 68,
+        "label": 30,
+        "total": 66
+      },
+      "styled_cells": 1188,
+      "row_heights_changed": 0,
+      "column_widths_changed": 0
+    },
+    "融资与还本付息": {
+      "roles": {
+        "title": 1,
+        "module": 2,
+        "header": 32,
+        "body": 613,
+        "label": 24,
+        "key": 66
+      },
+      "styled_cells": 738,
+      "row_heights_changed": 0,
+      "column_widths_changed": 0
+    },
+    "利润与现金流": {
+      "roles": {
+        "title": 1,
+        "header": 32,
+        "body": 3231,
+        "module": 68,
+        "label": 100,
+        "total": 132,
+        "key": 330
+      },
+      "styled_cells": 3894,
+      "row_heights_changed": 0,
+      "column_widths_changed": 0
+    },
+    "指标与情景测算": {
+      "roles": {
+        "title": 1,
+        "header": 11,
+        "label": 35,
+        "key": 40,
+        "body": 51,
+        "note": 45,
+        "module": 7,
+        "status": 21
+      },
+      "styled_cells": 211,
+      "row_heights_changed": 0,
+      "column_widths_changed": 0
+    },
+    "决策看板": {
+      "roles": {
+        "title": 1,
+        "decision": 14,
+        "label": 43,
+        "key": 21,
+        "body": 288,
+        "note": 84,
+        "header": 17,
+        "status": 50,
+        "module": 14,
+        "total": 6
+      },
+      "styled_cells": 538,
+      "row_heights_changed": 0,
+      "column_widths_changed": 0
+    }
+  },
+  "processing": "OOXML白名单样式补丁；不运行模型生成代码；不计算或改写公式",
+  "recalculated": false
+}

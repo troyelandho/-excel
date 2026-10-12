@@ -1,0 +1,3 @@
+# Python 3.10+; tested with Python 3.12.14.
+# Pure-style authoring and machine comparison; no Excel application required.
+lxml==6.1.1

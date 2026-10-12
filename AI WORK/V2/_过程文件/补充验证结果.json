@@ -1,0 +1,139 @@
+{
+  "input_sha256": "d1109b68c70597b461b35d52abaf4d869bc8ce35aa6f1388305f05ebee28570e",
+  "output_sha256": "6c2159569af7da0582a9b64b27848764a5272244553f5e7df781882100866653",
+  "negative_tests": [
+    {
+      "mutation": "参数数值",
+      "correctly_rejected": true,
+      "detected_by": [
+        "逐单元格地址类型和值（含文字及错误标记）",
+        "工作表完整非白名单XML"
+      ]
+    },
+    {
+      "mutation": "公式字符",
+      "correctly_rejected": true,
+      "detected_by": [
+        "逐单元格地址类型和值（含文字及错误标记）",
+        "公式字符串及公式属性",
+        "工作表完整非白名单XML"
+      ]
+    },
+    {
+      "mutation": "公式缓存",
+      "correctly_rejected": true,
+      "detected_by": [
+        "逐单元格地址类型和值（含文字及错误标记）",
+        "原有公式缓存及缓存类型",
+        "工作表完整非白名单XML"
+      ]
+    },
+    {
+      "mutation": "数字格式",
+      "correctly_rejected": true,
+      "detected_by": [
+        "原样式定义命名样式数字格式表及条件格式差异样式"
+      ]
+    },
+    {
+      "mutation": "冻结窗格",
+      "correctly_rejected": true,
+      "detected_by": [
+        "工作表完整非白名单XML"
+      ]
+    },
+    {
+      "mutation": "隐藏行",
+      "correctly_rejected": true,
+      "detected_by": [
+        "工作表完整非白名单XML"
+      ]
+    },
+    {
+      "mutation": "合并范围",
+      "correctly_rejected": true,
+      "detected_by": [
+        "工作表完整非白名单XML",
+        "合并隐藏冻结保护打印分页及对象关系"
+      ]
+    },
+    {
+      "mutation": "数据验证范围",
+      "correctly_rejected": true,
+      "detected_by": [
+        "工作表完整非白名单XML",
+        "数据验证及扩展设置"
+      ]
+    },
+    {
+      "mutation": "条件格式优先级",
+      "correctly_rejected": true,
+      "detected_by": [
+        "工作表完整非白名单XML",
+        "条件格式公式阈值范围优先级停止规则"
+      ]
+    },
+    {
+      "mutation": "计算设置",
+      "correctly_rejected": true,
+      "detected_by": [
+        "其余ZIP成员逐字节保持",
+        "命名范围计算设置及工作簿保护",
+        "超链接批注表格外部关系及其他对象"
+      ]
+    },
+    {
+      "mutation": "图表系列引用",
+      "correctly_rejected": true,
+      "detected_by": [
+        "其余ZIP成员逐字节保持",
+        "图表类型标题系列引用位置及全部设置",
+        "超链接批注表格外部关系及其他对象"
+      ]
+    },
+    {
+      "mutation": "图表位置",
+      "correctly_rejected": true,
+      "detected_by": [
+        "其余ZIP成员逐字节保持",
+        "图表类型标题系列引用位置及全部设置",
+        "超链接批注表格外部关系及其他对象"
+      ]
+    },
+    {
+      "mutation": "命名范围",
+      "correctly_rejected": true,
+      "detected_by": [
+        "其余ZIP成员逐字节保持",
+        "命名范围计算设置及工作簿保护",
+        "超链接批注表格外部关系及其他对象"
+      ]
+    },
+    {
+      "mutation": "对齐缩进",
+      "correctly_rejected": true,
+      "detected_by": [
+        "原样式定义命名样式数字格式表及条件格式差异样式"
+      ]
+    }
+  ],
+  "independent_openpyxl": {
+    "version": "3.1.5",
+    "checked_nonempty_cells": 9366,
+    "checked_formulas_and_caches": 8183,
+    "differences": 0,
+    "read_only_operations": true
+  },
+  "parameter_preservation": {
+    "input_cell": "核心参数输入!B10",
+    "input_saved_value": 125000,
+    "output_value": 125000,
+    "input_sha256_unchanged": true,
+    "all_caches_retained": true
+  },
+  "same_name_output_test": {
+    "second_output_has_unique_name": true,
+    "first_output_sha256_unchanged": true
+  },
+  "v1_unchanged": true
+}
