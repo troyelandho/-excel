@@ -1,0 +1,50 @@
+[
+  {
+    "table": -20406.09547833928,
+    "model": -20406.09547833928,
+    "formula": "=TABLE(B7,B8)",
+    "test": "base_G18"
+  },
+  {
+    "table": 0.0,
+    "model": 0.0,
+    "formula": "=TABLE(B7,B8)",
+    "test": "base_G28"
+  },
+  {
+    "table": -20406.09547833928,
+    "model": -20406.09547833928,
+    "formula": "=TABLE(B9,B6)",
+    "test": "base_G38"
+  },
+  {
+    "table": 32810.0,
+    "model": 32810.0,
+    "formula": "=TABLE(B9,B6)",
+    "test": "base_G48"
+  },
+  {
+    "table": -20406.09547833928,
+    "model": -20406.09547833928,
+    "formula": "=TABLE(B7,B10)",
+    "test": "base_F56"
+  },
+  {
+    "table": -26778.376279493965,
+    "model": -26778.376279493965,
+    "test": "price_rent_80pct"
+  },
+  {
+    "table": -22244.85771598554,
+    "model": -22244.85771598554,
+    "test": "delay_2_price_90pct"
+  },
+  {
+    "baseReconciliation": 0.0,
+    "quarterReconciliation": 0.0,
+    "test": "monthly_late_draw",
+    "lateGap": 623.8125,
+    "baseGap": 0.0,
+    "valid": 1.0
+  }
+]

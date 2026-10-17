@@ -1,0 +1,24 @@
+{
+  "formula_count": 47620,
+  "cycle_count": 0,
+  "cycles": [],
+  "invalid": [],
+  "source_input_differences": [],
+  "sheets": [
+    "决策看板",
+    "核心参数输入",
+    "指标与情景",
+    "年度汇总",
+    "季度投融资",
+    "季度经营税费",
+    "季度现金流",
+    "年度所得税",
+    "季度计划",
+    "敏感性与边界",
+    "模型校验",
+    "使用说明",
+    "关键月份核对"
+  ],
+  "chart_count": 3,
+  "data_table_formulas": 0
+}

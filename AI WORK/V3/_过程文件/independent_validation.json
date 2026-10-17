@@ -1,0 +1,21 @@
+{
+  "checked_cells": 10692,
+  "difference_count": 0,
+  "differences": [],
+  "metrics": [
+    {
+      "stress": false,
+      "required_equity": 32810.0,
+      "gap": 0,
+      "min_dscr": 0.2119715273305278,
+      "investment": 63310.0
+    },
+    {
+      "stress": true,
+      "required_equity": 38102.00000000001,
+      "gap": 5102.000000000012,
+      "min_dscr": 0.14850575361696283,
+      "investment": 68602.0
+    }
+  ]
+}

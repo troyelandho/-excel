@@ -1,0 +1,74 @@
+{
+  "case_count": 19,
+  "checks": [
+    {
+      "check": "all completed cases contain no Excel formula errors",
+      "pass": true
+    },
+    {
+      "check": "zero stress reproduces baseline for every metric",
+      "pass": true
+    },
+    {
+      "check": "no loan gives equal project/equity IRR and DSCR not applicable",
+      "pass": true
+    },
+    {
+      "check": "capital shortage 22810 without changing theoretical IRR",
+      "pass": true
+    },
+    {
+      "check": "capital shortage result labelled theoretical",
+      "pass": true
+    },
+    {
+      "check": "disposal only year 20, net proceeds 29100",
+      "pass": true
+    },
+    {
+      "check": "horizon 10 moves disposal and working capital recovery",
+      "pass": true
+    },
+    {
+      "check": "horizon 30 moves working capital recovery to year 30",
+      "pass": true
+    },
+    {
+      "check": "first draw 3 means maturity 12",
+      "pass": true
+    },
+    {
+      "check": "horizon_2_invalid flagged",
+      "pass": true
+    },
+    {
+      "check": "pure_hold flagged",
+      "pass": true
+    },
+    {
+      "check": "pure_sale flagged",
+      "pass": true
+    },
+    {
+      "check": "blank_rent flagged",
+      "pass": true
+    },
+    {
+      "check": "negative_cost flagged",
+      "pass": true
+    },
+    {
+      "check": "zero_collection flagged",
+      "pass": true
+    },
+    {
+      "check": "independent payback B10",
+      "pass": true
+    },
+    {
+      "check": "independent payback B11",
+      "pass": true
+    }
+  ],
+  "all_pass": true
+}

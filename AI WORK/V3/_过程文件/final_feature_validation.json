@@ -1,0 +1,14 @@
+{
+  "chartPointsRestored": 21,
+  "priceNPVBelow": -0.03497515118033334,
+  "rentAllConditionsBelow": false,
+  "zeroOverrideAfterRefresh": 0.0,
+  "changedSignatureStatus": "参数已变化，需运行刷新工具",
+  "rentAllConditionsAbove": true,
+  "chartPointsInitial": 21,
+  "initialSignatureStatus": "与当前参数一致",
+  "chartPoints30": 31,
+  "priceNPVAbove": 0.03506539259888086,
+  "restoredSignatureStatus": "与当前参数一致",
+  "zeroOverrideNumericCount": 1.0
+}

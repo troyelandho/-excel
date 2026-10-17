@@ -1,0 +1,213 @@
+{
+  "file": "C:\\Users\\BBEN\\Desktop\\投资测算AGENT V5-CODEX\\任务1-生成excel\\工作区1\\AI WORK\\V3\\产业园投资测算_V3_决策测算.xlsx",
+  "sha256": "7f0019637b8f339a609cc720050a079983231f51ab539514dc1d449808001651",
+  "source_unchanged": true,
+  "bounds": [
+    {
+      "name": "项目NPV=0的最高土地单价",
+      "value": "测试范围内未找到可行值",
+      "note": "其他条件固定；检查未通过指标及搜索范围。扫描不证明范围外或网格间不存在解"
+    },
+    {
+      "name": "全部财务条件下最高土地单价",
+      "value": "测试范围内未找到可行值",
+      "note": "其他条件固定；检查未通过指标及搜索范围。扫描不证明范围外或网格间不存在解"
+    },
+    {
+      "name": "项目NPV=0的最低销售均价",
+      "value": 12326.938062906265,
+      "note": "扫描定位可行区间后25次二分；其他条件固定，非多变量全局最优"
+    },
+    {
+      "name": "全部财务条件下最低销售均价",
+      "value": "测试范围内未找到可行值",
+      "note": "其他条件固定；检查未通过指标及搜索范围。扫描不证明范围外或网格间不存在解"
+    },
+    {
+      "name": "项目NPV=0的最低月租金",
+      "value": 94.49977895617485,
+      "note": "扫描定位可行区间后25次二分；其他条件固定，非多变量全局最优"
+    },
+    {
+      "name": "全部财务条件下最低月租金",
+      "value": 132.0257674753666,
+      "note": "扫描定位可行区间后25次二分；其他条件固定，非多变量全局最优"
+    },
+    {
+      "name": "全部财务条件下最低稳定出租率",
+      "value": "测试范围内未找到可行值",
+      "note": "其他条件固定；检查未通过指标及搜索范围。扫描不证明范围外或网格间不存在解"
+    },
+    {
+      "name": "全部财务条件下最高建设成本倍数",
+      "value": "测试范围内未找到可行值",
+      "note": "其他条件固定；检查未通过指标及搜索范围。扫描不证明范围外或网格间不存在解"
+    },
+    {
+      "name": "全部财务条件下最大整体延期",
+      "value": "测试范围内未找到可行值",
+      "note": "其他条件固定；检查未通过指标及搜索范围。扫描不证明范围外或网格间不存在解"
+    }
+  ],
+  "boundary_status": "与当前参数一致",
+  "refreshed_at": "2026-10-17 18:45:34",
+  "freeze": [
+    [
+      "决策看板",
+      "None",
+      true
+    ],
+    [
+      "核心参数输入",
+      "D7",
+      true
+    ],
+    [
+      "指标与情景",
+      "D7",
+      true
+    ],
+    [
+      "年度汇总",
+      "D7",
+      true
+    ],
+    [
+      "季度投融资",
+      "D7",
+      true
+    ],
+    [
+      "季度经营税费",
+      "D7",
+      true
+    ],
+    [
+      "季度现金流",
+      "D7",
+      true
+    ],
+    [
+      "年度所得税",
+      "D7",
+      true
+    ],
+    [
+      "季度计划",
+      "D7",
+      true
+    ],
+    [
+      "敏感性与边界",
+      "D7",
+      true
+    ],
+    [
+      "模型校验",
+      "D7",
+      true
+    ],
+    [
+      "使用说明",
+      "None",
+      true
+    ],
+    [
+      "关键月份核对",
+      "A11",
+      true
+    ]
+  ],
+  "input_unlocked": true,
+  "formula_locked": true,
+  "named_ranges": {
+    "V3ChartCash": "决策看板!$D$81:INDEX(决策看板!$D$81:$D$111,核心参数输入!$B$9+1)",
+    "V3ChartCFADS": "决策看板!$B$81:INDEX(决策看板!$B$81:$B$111,核心参数输入!$B$9+1)",
+    "V3ChartDistribution": "决策看板!$G$81:INDEX(决策看板!$G$81:$G$111,核心参数输入!$B$9+1)",
+    "V3ChartEquity": "决策看板!$F$81:INDEX(决策看板!$F$81:$F$111,核心参数输入!$B$9+1)",
+    "V3ChartGap": "决策看板!$E$81:INDEX(决策看板!$E$81:$E$111,核心参数输入!$B$9+1)",
+    "V3ChartService": "决策看板!$C$81:INDEX(决策看板!$C$81:$C$111,核心参数输入!$B$9+1)",
+    "V3ChartYear": "决策看板!$A$81:INDEX(决策看板!$A$81:$A$111,核心参数输入!$B$9+1)"
+  },
+  "native_data_tables": [
+    {
+      "part": "xl/worksheets/sheet10.xml",
+      "t": "dataTable",
+      "ref": "E16:I20",
+      "dt2D": "1",
+      "dtr": "1",
+      "r1": "B7",
+      "r2": "B8",
+      "ca": "1"
+    },
+    {
+      "part": "xl/worksheets/sheet10.xml",
+      "t": "dataTable",
+      "ref": "E26:I30",
+      "dt2D": "1",
+      "dtr": "1",
+      "r1": "B7",
+      "r2": "B8",
+      "ca": "1"
+    },
+    {
+      "part": "xl/worksheets/sheet10.xml",
+      "t": "dataTable",
+      "ref": "E36:I40",
+      "dt2D": "1",
+      "dtr": "1",
+      "r1": "B9",
+      "r2": "B6",
+      "ca": "1"
+    },
+    {
+      "part": "xl/worksheets/sheet10.xml",
+      "t": "dataTable",
+      "ref": "E46:I50",
+      "dt2D": "1",
+      "dtr": "1",
+      "r1": "B9",
+      "r2": "B6",
+      "ca": "1"
+    },
+    {
+      "part": "xl/worksheets/sheet10.xml",
+      "t": "dataTable",
+      "ref": "E56:G59",
+      "dt2D": "1",
+      "dtr": "1",
+      "r1": "B7",
+      "r2": "B10"
+    }
+  ],
+  "charts": [
+    {
+      "part": "xl/charts/chart1.xml",
+      "refs": [
+        "[0]!V3ChartYear",
+        "[0]!V3ChartCFADS",
+        "[0]!V3ChartYear",
+        "[0]!V3ChartService"
+      ]
+    },
+    {
+      "part": "xl/charts/chart2.xml",
+      "refs": [
+        "[0]!V3ChartYear",
+        "[0]!V3ChartCash",
+        "[0]!V3ChartYear",
+        "[0]!V3ChartGap"
+      ]
+    },
+    {
+      "part": "xl/charts/chart3.xml",
+      "refs": [
+        "[0]!V3ChartYear",
+        "[0]!V3ChartEquity",
+        "[0]!V3ChartYear",
+        "[0]!V3ChartDistribution"
+      ]
+    }
+  ],
+  "external_parts": []
+}
